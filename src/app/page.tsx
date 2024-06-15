@@ -7,15 +7,9 @@ const Home = () => {
   return (
     <VariantProvider>
       <div className="container mx-auto p-4">
-        <h1 className="text-2xl mb-4">Variant Management</h1>
-        <div className="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-4">
-          <div className="w-full lg:w-1/2">
-            <VariantForm />
-          </div>
-          <div className="w-full lg:w-1/2">
-            <VariantTable />
-          </div>
-        </div>
+        <h1 className="text-2xl font-bold mb-4">Variants</h1>
+        <VariantForm />
+        <VariantTable />
       </div>
     </VariantProvider>
   );

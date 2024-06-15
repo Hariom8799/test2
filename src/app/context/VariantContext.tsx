@@ -1,4 +1,3 @@
-'use client';
 import { createContext, useState, ReactNode } from 'react';
 
 interface Variant {
